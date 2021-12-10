@@ -1,0 +1,39 @@
+body{
+    margin:auto
+}
+#mainheading{
+    height: 60px;
+    
+    text-align:left;
+    
+    font-size:28px;
+    background-color:#68493f
+}
+#profile{
+    height: 400px;
+    
+    background-color: #746e6c;
+}
+.details{
+    height:200px;
+    width:50%;
+
+
+}
+.image{
+    background-image: url('images/mine.jpg');
+    height:350px;width:25%;
+    background-size:100%  350px
+}
+
+
+
+#hobbies{height: 500px;
+    border:2px solid rgb(22, 82, 173);
+
+}
+#map{
+    height: 300px;
+    border:2px solid rgb(22, 173, 29);
+}
+

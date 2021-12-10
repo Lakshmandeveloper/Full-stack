@@ -1,0 +1,141 @@
+body{
+    margin :auto;
+}
+#header{
+    height:60px;
+   /* border:2px solid green;*/
+    background-color:#c78f5f
+}
+#logo{
+    font-size:30px;
+    color:red;
+    margin-top:1%;
+    margin-left:1%;
+    position:absolute
+}
+#social{
+    float:right;
+    margin-right:1%
+
+}
+.slogo{
+    height:50px;
+    width:50px
+}
+a {
+    text-decoration:none
+}
+
+/* search start*/
+#search{
+    height:400px;
+   /* border:2px solid rgb(219, 193, 42); */
+    background-image:url('images/food-wallpaper.png');
+    background-size:cover;
+    background-size:100% 400px
+}
+#slogo{
+    height: 150px;
+    width:150px;
+    background-color:aliceblue;
+    border-radius:50%;
+    margin-left:42%;
+    position:absolute;
+    margin-top:4%;
+    font-size:90px;
+    color:orange
+}
+#slogo> span{
+    margin-left:28%;
+    position:absolute;
+    margin-top:11%;
+}
+.find{
+    margin-left:26%;
+    position:absolute;
+    margin-top:17%;
+    font-size:244%;
+    color:orange
+
+}
+.dropdown{
+    height:12%;
+    width:60%;
+    margin-left:25%;
+    margin-top:22%;
+    position:absolute
+}
+.restaurantSelect{
+    width:50%
+}
+select{
+    height:60px;
+    width:40%
+}
+/* search end*/
+.quicksearch{
+    height:500px;
+    width:80%;
+    
+    position:relative;
+    margin-left:10%;
+    margin-top:4%;
+    display:inline-block
+    
+
+}
+
+.quickheading{
+    display:block;
+    font-size:30px;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ac2e31;
+    margin-left:2%
+}
+.quicksubheading{
+    display:block;
+    font-size:19px;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:gray;margin-left:2%;
+    line-height:2
+
+}
+.tiles{
+    height:180px;
+    width:30%;
+    box-shadow:10px 20px 10px rgb(150, 196, 43);
+    float:left;
+    margin-left:2%;
+    margin-top:3%
+
+
+}
+.compartment1{
+    height:180px;
+    width:50%;
+    float:left
+}
+.compartment1>img{
+    height:180px;
+    width:100%
+    
+}
+.compartment2{
+    width:40%;
+    float: left;
+    height:100px;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+
+.componentHeading{
+    color:#ac2e31;
+    font-size: 25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
