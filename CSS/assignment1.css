@@ -1,0 +1,252 @@
+body{
+    margin: auto;
+ /* headerstart */   
+}
+#header{
+    height: 90px;
+    
+    background-color:whitesmoke
+   }
+ 
+.headcontainer{
+    height:60px;
+ position:absolute;
+    margin-top:1%;
+    float:left;
+
+}
+.loginpart{
+    margin-left:7%;
+    font-size:27px;
+    margin-top:4%;
+    color:rgb(1, 98, 209);
+    
+}
+#items {
+    margin-top:2%;
+    font-size:45px;
+    color:rgba(20, 18, 18, 0.568);
+    margin-left:6%
+}
+#icon{
+     width:15%;
+     margin-left:1%;
+     
+    
+}
+#icon> img{
+height:60px
+}
+#selection{
+   
+   width:44%;
+    margin-left:18%;
+    
+}
+ #login{
+    height:50px;
+    width:7%;
+   margin-left:69%;
+   
+   position:absolute;
+   margin-top:2%;
+   
+   
+
+} 
+#createaccount{
+    height:50px;
+    width:19%;
+    margin-left:78%;
+    border:2px solid rgba(1,86,183,1);
+    position:absolute;
+    margin-top:2%;
+    
+}
+/* header end*/
+/*sub header*/
+.subheader{
+    height:145px;
+    
+    background-color:#82a9d8
+}
+.arrange{
+    height:57px;
+    width:63%;
+    margin-left:2%;
+    position:absolute;
+    margin-top:6%;
+    float:left
+}
+.map{
+    height:141px;
+    width:22%;
+    margin-left:75%;
+    position:absolute;
+     float:left
+}
+.subheadertext{
+    font-size:35px;
+    color:aliceblue;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+     margin-left:2%;
+     margin-top:1%
+}
+.map>iframe{
+    height:145px;
+    width:100%;
+    background-size:cover;
+    background-size:100% 600px
+   
+}
+/* subheader part ended*/
+
+
+/* filters part started here*/
+#listingheading{
+    font-size:34px;
+    margin-left:27%;
+    margin-top:3%;
+    position:absolute;
+    font-family: 'Times New Roman', Times, ser;
+    font-weight: bold;
+
+}
+.bigbox{
+    height:800px;
+    width:94%;
+    
+    margin-top:7%;
+    margin-left:3%
+}
+.filter{
+    height:900px;
+    width:22% ;
+    box-shadow:1px 2px 1px rgb(13, 12, 117);
+    margin-top:0% ;
+    float:left
+
+    
+}
+
+#filterheading{
+    font-size:23px;
+    margin-left:3%;
+    margin-top:3%;
+    position:absolute;
+    font-family: 'Times New Roman', Times, ser;
+    font-weight: bold
+
+}
+.space{
+    line-height:2;
+    color:#5f6d7e
+}
+/*listing part started here*/
+.listing{
+    height:972px;
+    width:77%;
+    margin-left:24%;
+    margin-top:-1%
+}
+.bigcomparment{
+    height:225px;
+    width:98%;
+    box-shadow:2px 5px 2px rgb(28, 28, 78);
+    margin-left:1%;
+    margin-top:2%;
+    border-radius:1% 1%
+}
+.imagecompartment{
+    height:180px;
+    width:29%;
+    margin-left:1%;
+    margin-top:2%;
+    border-radius:1% 1%;
+    float:left
+    
+}
+.textcompartment{
+    height:190px;
+    width:50%;
+    margin-left:1%;
+    margin-top:1%;
+    border-radius:1% 1%;
+    float:left
+}
+.pricetags{
+    height:226px;
+    width:13%;
+    border-style:1px solid #5f6d7e;
+    margin-left:82%;
+    margin-top:0%;
+    
+    
+}
+.imagecompartment>img{
+    height:180px;
+    width:100%;
+    background-size:cover;
+    border-style:2% 2%
+}
+.textheading{
+    font-size:30px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    margin-top:7%;
+    margin-left:1%;
+    float:left
+}
+.checked{
+    font-size:19px;
+    
+}
+.location{
+    font-size:15px;
+     margin-top:17%;
+    margin-left:3%;
+    color:#5f6d7e
+}
+.safety{
+    color:rgba(23,23,211,1);
+    font-size:14px;
+    margin-left:2%;
+    line-height:3
+}
+.fast{
+    font-size:15px;
+    margin-top:2%;
+   margin-left:-4%;
+   color:#0e6d38
+
+}
+.pricetag{
+    height:222px;
+    width:18%;
+    margin-left:82%;
+    margin-top:0%;
+
+}
+.wrongprice{
+    font-size:25px;
+    margin-top:32%;
+   margin-left:49%;
+   color:#5f6d7e
+
+}
+.correctprice{
+    font-size:32px;
+    font-weight:bold;
+    margin-top:-15%;
+   margin-left:44%;
+   color:black
+
+}
+.tax{
+    font-size:13px;
+    margin-top:-15%;
+   margin-left:22%;
+   color:#5f6d7e
+    
+}

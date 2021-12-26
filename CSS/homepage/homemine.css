@@ -4,7 +4,8 @@ body{
 #header{
     height:60px;
    /* border:2px solid green;*/
-    background-color:#c78f5f
+
+    background-color: #e09c83;
 }
 #logo{
     font-size:30px;
@@ -90,7 +91,7 @@ select{
     font-size:30px;
     font-weight:bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:#ac2e31;
+    color:#ffa500;
     margin-left:2%
 }
 .quicksubheading{
@@ -98,14 +99,15 @@ select{
     font-size:19px;
     font-weight:bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:gray;margin-left:2%;
+    color:azure;
+    margin-left:2%;
     line-height:2
 
 }
 .tiles{
     height:180px;
     width:30%;
-    box-shadow:10px 20px 10px rgb(150, 196, 43);
+    box-shadow:10px 20px 10px rgb(148, 150, 139);
     float:left;
     margin-left:2%;
     margin-top:3%
@@ -136,6 +138,84 @@ select{
 }
 
 .componentSubHeading{
-    color:gray;
+    color:aliceblue;
     font-size: 15px;
 }
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:#9b8c36
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color:#40ad8d
+    }
+    
+.dropdown{
+    
+    margin-left:22%;
+    margin-top:25%;
+}
+.find{
+    margin-left:23%;
+    
+    margin-top:19%;
+}
+
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color:#2d6788
+    }
+    .dropdown{
+    
+        margin-left:20%;
+        margin-top:33%;
+    }
+    .find{
+        margin-left:23%;
+        font-size:198%;
+        margin-top:25%;
+    }
+    
+
+.tiles {
+    
+    width: 45%;
+}
+.quicksearch{
+    height:712px;
+}
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:#318d45
+    }
+#slogo {
+       
+        margin-left: 36%;
+       
+}
+.dropdown{
+    
+    margin-left:20%;
+    margin-top:38%;
+}
+.find{
+    margin-left:15%;
+    font-size:187%;
+    margin-top:29%;
+}
+
+
+.tiles {
+
+width: 80%;
+}
+.quicksearch{
+height:1295px;
+
+}
+}
+
