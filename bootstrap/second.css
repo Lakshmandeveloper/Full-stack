@@ -1,0 +1,33 @@
+#first{
+    height:200px;
+    background-color:rgb(226, 87, 52)
+}
+#second{
+    height:200px;
+    background-color:rgb(214, 163, 24)
+}
+#third{
+    height:200px;
+    background-color:rgb(177, 207, 41)
+}
+#fourth{
+    height:200px;
+    background-color:rgb(67, 175, 25)
+}
+#fifth{
+    height:200px;
+    background-color:rgb(94, 7, 55)
+}
+#sixth{
+    height:200px;
+    background-color:rgb(20, 102, 98)
+}
+#seventh{
+    height:200px;
+    background-color:rgb(30, 21, 107)
+}
+.glyphicon{
+    font-size:25px;
+    color:rgb(14, 29, 114);
+    margin-left:1%
+}

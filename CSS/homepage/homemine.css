@@ -40,12 +40,27 @@ a {
     width:150px;
     background-color:aliceblue;
     border-radius:50%;
-    margin-left:42%;
+    margin-left:45%;
     position:absolute;
     margin-top:4%;
     font-size:90px;
-    color:orange
+    color:orange;
+    animation:movelogo 10s infinite;
 }
+@keyframes movelogo {
+    0%{ margin-left:42%}
+    25%{margin-left:38%}
+    50%{margin-left:42%}
+    75%{margin-left:46%}
+    100%{margin-left:42%}
+
+}
+/*
+#slogo:hover{
+    transition:margin-left 10s;
+    margin-left:42%
+} */
+
 #slogo> span{
     margin-left:28%;
     position:absolute;
@@ -77,7 +92,6 @@ select{
 .quicksearch{
     height:500px;
     width:80%;
-    
     position:relative;
     margin-left:10%;
     margin-top:4%;
@@ -93,6 +107,9 @@ select{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:#ffa500;
     margin-left:2%
+}
+.quickheading:hover{
+    color:#ca5f21
 }
 .quicksubheading{
     display:block;
@@ -110,10 +127,24 @@ select{
     box-shadow:10px 20px 10px rgb(148, 150, 139);
     float:left;
     margin-left:2%;
-    margin-top:3%
-
-
+    margin-top:3%;
+    animation:movingtiles 15s infinite;
 }
+@keyframes movingtiles {
+    0%{transform:rotate(-10deg)}
+    25%{transform:rotate(10deg)}
+    50%{transform:rotate(-10deg)}
+    75%{transform:rotate(10deg)}
+    100%{transform:rotate(-10deg)}
+}
+ /*.tiles:hover{
+    
+    transform:scale(1.1)
+    transform:rotate(-10deg) 
+    transform:rotate(10deg)
+    transform:skewX(-10deg)
+    transform:skewy(10deg)
+} */
 .compartment1{
     height:180px;
     width:50%;
@@ -214,7 +245,7 @@ select{
 width: 80%;
 }
 .quicksearch{
-height:1295px;
+        height:1295px;
 
 }
 }

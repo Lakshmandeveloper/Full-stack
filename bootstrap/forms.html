@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <link href="forms.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container" >
+            <br/>
+            <div class="panel panel-primary"> 
+                <div class="panel-heading"> 
+                    Employee form
+                </div>
+                <div class="panel-body">
+                    <form >
+                        <div class="form-group has-success">
+                            <label form="form-control" for="fname"> First Name</label>
+                            <input class="form-control"  id="fname" required name="fname"/>
+                        </div>
+                        <div class="form-group">
+                            <label form="form-control" for="lname"> Last Name</label>
+                            <input class="form-control" id="lname" name="lname"/>
+                        </div>
+                        <div class="row" >
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label form="form-control" for="email"> Email</label>
+                                    <input class="form-control"  id="email" type="email" name="email"/>
+                                </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label form="form-control" for="password"> password</label>
+                                        <input class="form-control"  id="password" type="password" maxlength="8" name="pwd "/>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--radio button-->
+
+                            <label>Gender</label>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" value="male" name="Gender"/>Male
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" value="Female"  name="Gender"/>Female
+                                </label>
+                            </div>
+                            <!--Languages-->
+                            <label>Languages</label>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="Java" name="Lang"/>Java
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Python" name="Lang"/>python
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Javascript" name="Lang"/>Javascript
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="C" name="Lang"/>C
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>City</label>
+                                <select class="form-control" name="city">
+                                    <option>Delhi</option>
+                                    <option>london</option>
+                                    <option>Mirzapur</option>
+                                    <option>kondapur</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label   for="comments">Comments</label>
+                                <textarea class="form-control" id="comments" row="5" name="comments"></textarea>
+                            </div>
+                            
+                        <button class="btn btn-success"  type="submit" >submit</button> 
+                     </form>
+                     <form class="form-horizontal">
+                         <div class="form-group has-success has-feedback">
+                             <label class="col-md-2 control-label">Email </label>
+                             <div class="col-md-10">
+                                 <input class="form-control" type="text"  placeholder ="Email"/>
+                                 <span class="glyphicon glyphicon-ok form-control-feedback" ></span>
+                             </div>
+                             </div>
+                             <div class="form-group has-warning has-feedback">
+                                <label class="col-md-2 control-label">Email </label>
+                                <div class="col-md-10">
+                                    <input class="form-control" type="text" />
+                                    <span class="glyphicon glyphicon-warning-sign form-control-feedback" ></span>
+                                </div>
+                                </div>
+                                <div class="form-group has-error has-feedback">
+                                    <label class="col-md-2 control-label">Email </label>
+                                    <div class="col-md-10">
+                                        <input class="form-control" type="text" />
+                                        <span class="glyphicon glyphicon-remove  form-control-feedback" ></span>
+                                    </div>
+                                    </div>
+                             
+                            </form>
+                </div>
+               </div>
+        </div>
+    </body>
+
+</html>
