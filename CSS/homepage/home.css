@@ -43,17 +43,30 @@ a{
     width:150px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    margin-left: 45%;
+    margin-left: 0%;
     margin-top: 1%;
     position: absolute;
     font-size:80px;
-    color:#df7839
+    color:#df7839;
+    animation: movelogo 18s infinite ;
 }
 
 #logo > span {
     margin-left: 31%;
     margin-top: 15%;
     position: absolute;
+}
+/* #logo:hover{
+    transition:margin-left 10s ;
+    margin-left:45%
+} */
+
+@keyframes movelogo{
+    0%{margin-left:45%}
+    25%{margin-left:0%}
+    50%{margin-left:45%}
+    75%{margin-left:85%}
+    100%{margin-left:45%}
 }
 
 #heading{
@@ -97,7 +110,9 @@ select{
     font-weight: bold;
     margin-left: 2%;
 }
-
+#QuickHeading:hover{
+    color:#d16733
+}
 
 #QuickSubHeading{
     line-height: 2;
@@ -116,6 +131,15 @@ select{
     margin-left: 2%;
     box-shadow: 10px 20px 15px gray;
 }
+.tileContainer:hover{
+    /* transform:scale(1.1); */
+    /* transform:rotate(-20deg); */
+    transform:rotate(15deg);
+    /* transform:skewx(-20deg); */
+    /* transform:skewy(-20deg); */
+
+}
+
 
 .tileComponent1{
     width:50%;
