@@ -1,0 +1,38 @@
+{
+    "city":[
+        {
+            "_id" :1,
+            "city_name":"Delhi",
+            "city_id":8,
+            "country_name":"India"
+
+    },
+    {
+        "_id" :2,
+            "city_name":"Mumbai",
+            "city_id":9,
+            "country_name":"India"
+    },
+    {
+        "_id" :3,
+            "cityname":"Mirzapur",
+            "city_id":11,
+            "country_name":"India"
+    },
+    {
+        "_id" :4,
+            "cityname":"Pune",
+            "city_id":12,
+            "country_name":"India"
+    },
+    {
+        "_id" :5,
+            "cityname":"Banglore",
+            "city_id":14,
+            "country_name":"India"
+    }
+
+]
+
+
+}

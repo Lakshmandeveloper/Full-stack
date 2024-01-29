@@ -41,5 +41,5 @@ Uncaught SyntaxError: Identifier 'b' has already been declared
 undefined
 > const c = 11
 Uncaught SyntaxError: Identifier 'c' has already been declared
-> c =11
+> c =11 
 Uncaught TypeError: Assignment to constant variable.

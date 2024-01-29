@@ -1,0 +1,86 @@
+{
+    "hostel":[
+        {
+        "_id":"1",
+        "city_name": "Delhi",
+        "city_id":8,
+        "restaraunt":"Aer Bar & LoungeBARAer Bar & Lounge"
+    },
+    {
+        "_id":"2",
+        "city_name": "pune",
+        "city_id":12,
+        "restaraunt":"Shree Thaker Bhojanalay"
+
+    },
+    {
+        "_id":"3",
+        "city_name": "Mirzapur",
+        "city_id":11,
+        "restaraunt":"The Living Room at Masque"
+
+    },
+    {
+        "_id":"4",
+        "city_name": "pune",
+        "city_id":12,
+        "restaraunt":"Wasabi by Morimoto"
+
+    },
+    {
+        "_id":"5",
+        "city_name": "Banglore",
+        "city_id":14,
+        "restaraunt":"O Pedro Restaurant"
+
+    },
+    {
+        "_id":"6",
+        "city_name": "Delhi",
+        "city_id":16,
+        "restaraunt":"Typhoon Shelter BAR"
+
+    },
+    {
+        "_id":"7",
+        "city_name": "Mumbai",
+        "city_id":9,
+        "restaraunt":"Fun Republic Socia"
+
+    },
+    {
+        "_id":"8",
+        "city_name": "Mirzapur",
+        "city_id":11,
+        "restaraunt":"Kettle & Keg versova"
+
+    },
+    {
+        "_id":"9",
+        "city_name": "pune",
+        "city_id":12,
+        "restaraunt":"The Irish House BKC"
+
+    },
+    {
+        "_id":"10",
+        "city_name": "Banglore",
+        "city_id":14,
+        "restaraunt":"Merwans Cake Stop"
+
+    },
+
+    {
+        "_id":"11",
+        "city_name": "pune",
+        "city_id":12,
+        "restaraunt":"The Bandra Gymkhana"
+
+    }
+
+    ]
+}
+
+
+
+
