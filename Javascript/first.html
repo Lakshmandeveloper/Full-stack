@@ -26,12 +26,16 @@
                 console.log(data)
                 x.innerText=`Latitude is ${data.coords.latitude}, longitude is ${data.coords.longitude}`
 
-                var url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key= AIzaSyCQ5kePCV1435C5qwJt0-Lf1xcQYRCC8pU`;
-
+               // var url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key= AIzaSyCQ5kePCV1435C5qwJt0-Lf1xcQYRCC8pU`;
+               var url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+       
                 fetch(url)
                 .then((res) => res.json())
                 .then((data) => {
                     console.log(data)
+                    data.list.map((item) =>{
+                        console.log(item.temp.day)
+                    }
 
 
                 })
