@@ -1,3 +1,1 @@
-ApI key :AIzaSyCQ5kePCV1435C5qwJt0-Lf1xcQYRCC8pU
-
-AIzaSyCzdDudN2bvPSXAwFjL74zDMkHLAIY55L8
+mongodb+srv://tetali:<password>@cluster0.uy8eapv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
