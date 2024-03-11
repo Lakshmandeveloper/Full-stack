@@ -1,1 +1,0 @@
-mongodb+srv://tetali:<password>@cluster0.uy8eapv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
