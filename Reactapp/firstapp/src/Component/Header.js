@@ -43,14 +43,28 @@ import './Header.css'
 
 
 class header extends Component{
+
+    constructor(){
+        super()
+        this.state ={
+            title:'React Developer',
+            keywords:"User text here"
+        }
+    }
+
+    handleChange =(event) =>{
+        console.log(event.target.value)
+        this.setState({keywords:event.target.value?event.target.value:"User text here"})
+
+    }
     render( ){
         return(
             <Fragment>
                 <header>
-                    <div className='logo' >Developer Funnel</div>
+                    <div className='logo' >{this.state.title}</div>
                     <center>
-                        <input/>
-                        <div style={{color:'red',fontSize:'20px'}}>User Input here</div>
+                        <input onChange= {this.handleChange}/>
+                        <div style={{color:'red',fontSize:'20px'}}>{this.state.keywords}</div>
                     </center>
                 </header>
             </Fragment>
