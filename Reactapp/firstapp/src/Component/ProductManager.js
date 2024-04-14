@@ -4,9 +4,9 @@ import './product.css';
 function Display(props){
 
         console.log("product output>>>",props )
-        const renderProduct =props.prodData.map((data) =>{
+        const renderProduct =props.prodData.map((data,index) =>{
             return(
-                <div className="card">
+                <div className="card" key={index}>
                     <img src={data.image} alt={data.name}/>
                     <hr/>
                     <div>
