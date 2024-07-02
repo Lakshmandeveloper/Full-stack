@@ -1,12 +1,14 @@
 import React from 'react';
 
-const Footer = (props )=>{
-
+function Footer(props){
     return(
-        <>
+            <>
+            <center>
+                <h4>&copy; End of the Page </h4>
+            </center>
             <hr/>
-            <center><h2>&copy;Developer funnel {props.year}</h2></center>
-        </>
+
+            </>
     )
 }
-export default Footer;
+export default Footer
