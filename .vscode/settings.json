@@ -1,4 +1,7 @@
 {
     "editor.fontFamily": "\"MonoLisa, Menlo, Monaco, 'Courier New', monospace\"",
-    "files.autoSave": "onWindowChange"
+    "files.autoSave": "onWindowChange",
+    "files.watcherExclude": {
+        "**/target": true
+    }
 }
