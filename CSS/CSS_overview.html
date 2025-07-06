@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>CSS OVERVIEW</title>
+        <style>
+            h2{
+                text-align:center;
+            }
+            .maincard{
+                height:380px;
+                width:25%;
+                float:left;
+                 margin-left:6%;
+                 margin-top:3%;
+                 overflow:scroll
+                }
+            .imgcard{
+                height:150px;
+                width:100%
+            } 
+            #card1{
+                background-color:rgb(153, 48, 48);
+            } 
+            #card2{
+                background-color:rgb(138, 46, 156);
+            }  
+            #card3{
+                background-color:rgb(118, 170, 49)
+            }
+
+
+        </style>
+</head>
+    
+    <body>
+        <header>
+           <h1 style="color:rgba(21, 102, 215, 0.734);text-align:center;font-weight: bolder;"> What is CSS? </h1>
+           <hr/>
+           <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML. It controls layout, colors, fonts, spacing, and more.</p>
+           
+        </header>
+        <!--here u can see difference b/w Block level and inline elements -->
+        <p style="text-align:center;color:blueviolet"> Developer Funnel</p>
+       <div style="text-align:center;background-color:orangered">
+        <span style="color:brown;background-color: azure;"> Developer Funnel</span>
+        </div>
+
+        <div style="display:inline-block">
+             <div class="maincard" id="card1"><h2 > Amsterdam </h2>
+                <img class="imgcard" src="../images/amsterdam.jpeg"/>
+                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+             </div>
+
+        <div class="maincard" id="card2">
+            <h2> Manali </h2>
+                <img class="imgcard" src="../images/manali.jpeg"/> 
+                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                     </p>
+        </div>
+
+        <div class="maincard" id="card3"> 
+            <h2> Switzerland </h2>
+                <img class="imgcard" src="../images/bombay.jpg"/>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                    </p>
+        </div>
+     </div>
+         <hr/>
+
+        
+        
+        <footer>
+            <center><h2>&copy;&hearts;Developer Funnel</h2></center>
+        </footer>
+
+    </body>
+</html>
